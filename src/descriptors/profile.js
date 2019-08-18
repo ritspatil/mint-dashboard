@@ -1,0 +1,1 @@
+export const JSON_PROFILE = require('./bnk48');

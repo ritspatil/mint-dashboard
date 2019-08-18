@@ -1,0 +1,14 @@
+.hand-video {
+  display: none;
+}
+.some-container {
+  position: relative;
+  .hand-icon {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    &.hide {
+      display: none;
+    }
+  }
+}

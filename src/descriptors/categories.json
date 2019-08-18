@@ -1,0 +1,18 @@
+{
+  "Restaurants & Bars": {
+    "categories": ["Alcohol & Bars", "Restaurants"],
+    "budget": 670
+  },
+  "Office Cafateria": {
+    "categories": ["Office Cafateria"],
+    "budget": 200
+  },
+  "Groceries": {
+    "categories": ["Groceries"],
+    "budget": 280
+  },
+  "Movies": {
+    "categories": ["Movies & DVDs"],
+    "budget": 50
+  }
+}

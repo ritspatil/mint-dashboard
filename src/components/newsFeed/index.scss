@@ -1,0 +1,20 @@
+.news-container {
+  max-height: 55rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.feed-container {
+  .news-text {
+    display: block;
+  }
+  .each-news-feed {
+    max-height: 10rem;
+    overflow: hidden;
+    .MuiAvatar-root {
+      border-right: none;
+    }
+  }
+}
+.news-title {
+  text-align: center;
+}

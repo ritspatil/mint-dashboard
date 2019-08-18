@@ -1,0 +1,44 @@
+.progress-bar-wrapper {
+  margin-bottom: 2rem;
+  .budget-category-description {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.progress-bar {
+  position: relative;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #333;
+
+  .filler {
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+    &.quarter {
+      background: linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+      lightgray;
+      box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+      animation: change 1s linear infinite;
+    }
+    &.half {
+      background: linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+      lightgray;
+      box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+      animation: change 1s linear infinite;
+    }
+    &.threeFourth {
+      background: linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+      lightgray;
+      box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+      animation: change 1s linear infinite;
+    }
+    &.full {
+      background: linear-gradient(to right, red 0%, yellow 50%, green 100%) left/var(--p,100%) fixed,
+              lightgray;
+      box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.5);
+      animation: change 1s linear infinite;
+    }
+  }
+}
